@@ -275,7 +275,16 @@ nav .logo{
 }
 
 /*______________________________________*/
-
+.divisor2{
+    margin-top: 250px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    width: 100%;
+}
+.divisor2 h2{
+    color: #3d2561;
+    font-size: 2em;
+}
 /*___________section doc________________*/
 
 .section-doc{
@@ -283,7 +292,7 @@ nav .logo{
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
-    margin: 80px auto;
+    margin: 65px auto;
     flex-wrap: wrap;
     align-items: center; 
 }
@@ -293,6 +302,7 @@ nav .logo{
     flex-wrap: wrap;
     width: 370px;
 }
+
 .text-doc{
     flex-wrap: wrap;
     display: flex;
@@ -313,8 +323,8 @@ nav .logo{
     margin: 10px;
 }
 .doc h2{   
-    color: #8A7474;
-    font-size: var(--md);
+    color: #3d2561;
+    font-size: 30px;
 }
 
 
