@@ -19,7 +19,7 @@
 /*______________menu______________*/
 body{
     box-sizing: border-box;
-    height: 1880px;
+    height: auto;
     
 }
 .btn-Menu{
@@ -249,7 +249,7 @@ nav .logo{
 .nos{
     width: 980px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
     margin: 80px auto;
     flex-wrap: wrap;
@@ -262,8 +262,10 @@ nav .logo{
     width: 500px;    
    
 }
-.nos-container h1{
+.nos-container h2{
     color: #3d2561;
+    font-size: 2em;
+    font-weight: 900;
 }
 .nos-container p{
     color: #8A7474;
@@ -277,22 +279,23 @@ nav .logo{
 /*______________________________________*/
 .divisor2{
     margin-top: 250px;
-    margin-left: 40px;
+    margin-left: 16px;
     margin-bottom: 0;
     width: 100%;
 }
 .divisor2 h2{
     color: #3d2561;
     font-size: 2em;
+    font-weight: 900;
 }
 /*___________section doc________________*/
 
 .section-doc{
     width: 980px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
-    margin: 65px auto;
+    margin: 10px auto;
     flex-wrap: wrap;
     align-items: center; 
 }
@@ -312,15 +315,16 @@ nav .logo{
     color: #8A7474;
 }
 .doc a{
-    margin: 0 50px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .doc img{
-    width: 150px;
+    width: 339px;
     object-fit: cover;
     margin: 10px;
+    border: 1px solid black;
 }
 .doc h2{   
     color: #3d2561;
@@ -335,26 +339,30 @@ nav .logo{
 
 
 
-
 .content-map{
-    margin-top: 700px;
+    margin-top: 300px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #map {
-   display: flex;
-   
-	height: 500px;
+    display: flex;    
+   	height: 500px;
 	width: 700px;
+    margin-top: 20px;
 }
-
-
-
-
-
-
+.map-title{
+    display: flex;    
+    width: 980px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+}
 
 
 
@@ -385,15 +393,7 @@ nav .logo{
 
 
 
-.backform{
     
-    height: 600px;
-    background-color: #eaf6f6;
-    margin: auto;
-    display: grid;
-    max-width: 1200px;
-    border-radius: 8px;
-}    
 .form{
     width: 90%;
     max-width: 400px;
@@ -561,7 +561,32 @@ nav .logo{
         color: var(--secondary-color);
     }
 
-
+    .content-map{
+        margin-top: 300px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #map {
+        display: flex;
+        height: 500px;
+        width: 358px;
+        margin-top: 20px;
+    }
+    .map-title{
+        display: flex;
+        flex-direction: column;
+        width: 254px;
+        height: 121px;
+        font-size: var(--sm);
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 2px;
+    }
 
 
      /*______________footer______________*/
@@ -639,7 +664,8 @@ nav .logo{
     }
 
     .text-doc{
-        width: 360px;
+        width: 338px;
+        margin: auto;
     }
 
 
